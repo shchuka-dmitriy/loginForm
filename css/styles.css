@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D47677;
+    display: flex;
+    justify-content: center;
+}
+
+.mainContainer{
+    margin-top: 100px;
+    width: 350px;
+    height: 350px;
+    background-color: #ECECEC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    box-shadow: -1px 7px 6px -2px rgba(0,0,0,0.53);
+    padding-bottom: 20px;
+    border-radius: 2px;
+}
+
+img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #70C5C0;
+    margin-top: -50px;
+    padding: 10px;
+}
+
+.memberLogin{
+    font-size: 20px;
+    color: gray;
+}
+
+.formContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.formContainer input{
+    width: 100%;
+    margin-top: 10px;
+    border: 0;
+    padding: 10px;
+}
+
+.submitInput{
+    background-color: #70C5C0;
+    color: white;
+    font-weight: 700;
+}
+
+.mainContainerFooter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: gray;
+    width: 80%;
+}
+
+a{
+    color: gray;
+}
+
+input:focus{
+    border: 2px solid dodgerblue;
+    box-sizing: border-box;
+}
